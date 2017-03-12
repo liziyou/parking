@@ -1,0 +1,12 @@
+.middle{
+    text-align:center;}
+.middle > .list .head {
+    background-color:#dfdfdf;font:bold 16px verdana;float:left;}
+.middle > .list .ui_list_box{
+    width:100%; overflow:hidden;}
+.middle > .list .even_bg{
+    background-color:#f6f4f3;}
+.middle > .list .ui_list_box .ui_td{
+    float:left; border-right:1px dashed #dfdfdf; color:#999999; padding:10px 0px;}
+.middle > .list .ui_list_box .td1{
+    color:#030303;}

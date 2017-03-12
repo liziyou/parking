@@ -1,0 +1,30 @@
+<ion-view view-title="找回密码" >
+    <ion-content>
+        <!--<div>找回密码页面</div>-->
+        <div class="item item-input">
+            <span>手 机 号:</span>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.phone">
+        </div>
+
+        <div class="item item-input">
+            <span>验 证 码:</span>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.code">
+            <button class="button button-calm" ng-click="ionGetCode()">获取验证码</button>
+        </div>
+        <div class="item item-input codeSuccess" >
+            <span>密保问题:</span>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.answer">
+        </div>
+        <div class="item item-input codeSuccess" >
+            <span>新 密 码:</span>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.newPwd">
+        </div>
+        <div class="item item-input codeSuccess" >
+            <span>确认密码:</span>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.confirm">
+        </div>
+        <div style="margin-left: 90px;margin-top: 25px;">
+            <button class="button  button-positive" style="width: 200px;" ng-click="ionResetPwd()">确 认</button>
+        </div>
+    </ion-content>
+</ion-view>

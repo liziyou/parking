@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#top {
+    color: Red;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+#content {
+    margin-left: 450px;
+    margin-top: 180px;
+}
+.ptitle {
+    color: Red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pcontent {
+    color: Gray;
+    font-size: 14px;
+}
+.bottom {
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: #ded4d4;
+    font-size: 13px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+}
+.bottom a:hover {
+    color:#000000;
+}
+

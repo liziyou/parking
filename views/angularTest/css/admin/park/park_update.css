@@ -1,0 +1,89 @@
+/*body {*/
+/*}   **/
+    /*{*/
+        /*margin: 0px;*/
+        /*padding: 0px;*/
+    /*}*/
+#parktop
+{
+    color: black;
+}
+#cont
+{
+    /*margin-left:350px;*/
+margin-top: -10px;
+    /*margin-top:70px;*/
+}
+.parkphone{
+    margin-top: 10px;
+}
+#subcheck
+{
+   width: 60px;
+    height: 35px;
+    color: White;
+    background-color:#ff6a00;
+    margin-top: 15px;
+}
+#subcheck:hover
+{
+    color: White;
+    background-color:#ffd800
+}
+#adress{
+    background-color: #ede2e2;
+    width: 210px;
+}
+#phone{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#parkusername{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#carport{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+
+#account{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#inputbank{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#bankuser{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#banknumber{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px
+}
+#RealName{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px
+}
+#subbtn
+{
+    width: 60px;
+    height: 35px;
+    color: White;
+    background-color: #ff6a00;
+}
+#subbtn:hover
+{
+    color: White;
+    background-color:#ffd800
+}

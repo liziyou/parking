@@ -1,0 +1,136 @@
+.conpon-table,.info-table {
+    float: left;
+    margin-top: 20px;
+}
+.conpon-table tr,.info-table tr {
+    border-bottom: 1px dashed #bdbdbd;
+}
+.info-table {
+    margin-left: 10%;
+    padding: 15px;
+    border: 2px dashed #ccc;
+}
+.info-table h4 {
+    color: #0088CC;
+}
+.info-table td {
+    text-align: left;
+    padding: 8px 30px 8px 15px;
+}
+.type-title {
+    text-align: right;
+    padding: 0 10px;
+}
+.type-content {
+    text-align: left;
+    padding: 10px 6px;
+}
+input[type="radio"] {
+    position: relative;
+    float: left;
+    margin-top: 12px;
+}
+.select-div {
+    float: left;
+    width: 199px;
+    height: auto;
+    overflow-x: hidden;
+}
+select {
+    margin-left: 15px;
+    width: 200px;
+    height: 35px;
+    background: #428bca;
+    color: #fff;
+}
+#selectname{
+    width: 50px;
+}
+select option {
+    padding: 6px 5px;
+}
+.all-txt {
+    height: 40px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+.carnum-txt {
+    color: black;
+    margin-top: 20px;
+}
+.time-bg span,.money-bg span,.all-bg span {
+    color: #cd405a;
+}
+.time-bg {
+    background: rgba(255, 203, 219, 0.44);
+}
+.money-bg {
+    background: rgba(181, 207, 225, 0.74);
+}
+.all-bg {
+    background: rgba(205, 225, 217, 0.74);
+}
+.max-bg {
+    background: rgba(225, 205, 137, 0.74);
+}
+#carNumber {
+    display: block;
+    float: left;
+    width: 55%;
+    max-width: 400px;
+    height: 35px;
+    line-height: 20px;
+    padding-left: 7px;
+    border: 1px solid #c2ccd1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    -webkit-appearance: none;
+}
+/*car number keyboard start*/
+.keyboards {
+    display: none;
+    position: absolute;
+    width: 469px;
+    padding: 5px;
+    font: 105%/1.5 Verdana, Sans-Serif;
+    background: #eee;
+}
+#keyboard {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#keyboard li {
+    float: left;
+    margin: 3px;
+    width: 45px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#keyboard li:hover {
+    color: #fff;
+    background: #428bca;
+    cursor: pointer;
+}
+#keyboard li:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #e5e5e5;
+}
+.character,.symbol {
+    background: #fff;
+}
+.letter {
+    color: #fff;
+    background: #8fc2e4;
+}
+.delete,.close-btn {
+    color: #fff;
+    background: rgba(140, 166, 184, 0.74);
+}

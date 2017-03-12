@@ -1,0 +1,12 @@
+.personnel {
+    text-align:center;}
+.personnel > .adminlist .head {
+    background-color:#dfdfdf;font:bold 16px verdana;float:left;}
+.personnel > .adminlist .ui_list1_box{
+    width:100%; overflow:hidden;}
+.personnel > .adminlist .even_bg{
+    background-color:#f6f4f3;}
+.personnel > .adminlist .ui_list1_box .ui_td{
+    float:left; border-right:1px dashed #dfdfdf; color:#999999; padding:10px 0px;}
+.personne > .adminlist .ui_list1_box .td1{
+    color:#030303;}

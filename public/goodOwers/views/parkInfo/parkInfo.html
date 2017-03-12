@@ -1,0 +1,24 @@
+<ion-view view-title="停车信息">
+
+    <ion-nav-buttons side="left">
+        <a href="javascript:history.back(-1)" class="button button-icon icon ion-ios-arrow-back" nav-direction="back" >
+        </a>
+    </ion-nav-buttons>
+
+    <ion-content scroll="false">
+        <div class="item item-divider" class="fixedTips">这是停车信息页面</div>
+       <ion-scroll direction="y" class="parkScroll">
+           <ion-list>
+               <ion-item ng-repeat="parkInfo in parkInfoList">
+                   <!--<span>车牌号码：{{parkInfo.}}</span>-->
+                   <!--<span>停车场名：{{parkInfo.}}</span>-->
+                   <!--<span>进场时间：{{parkInfo.}}</span>-->
+                   <!--<span>车牌状态：{{parkInfo.}}</span>-->
+                   <!--<span>应付金额：{{parkInfo.}}</span>-->
+               </ion-item>
+
+
+           </ion-list>
+       </ion-scroll>
+    </ion-content>
+</ion-view>

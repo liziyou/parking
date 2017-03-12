@@ -1,0 +1,52 @@
+#active
+{
+    color: #808080;
+}
+#timecont
+{
+    /*margin-left:350px;*/
+
+}
+.import{
+    margin-top: 10px;
+color: black;
+}
+#sure
+{
+    width: 60px;
+    height: 35px;
+    color: White;
+    background-color:#ff6a00;
+    margin-top: 15px;
+}
+#sure:hover
+{
+    color: White;
+    background-color:#ffd800
+}
+#development {
+    background-color: #ede2e2;
+    width: 210px;
+}
+#end{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#give{
+    background-color: #ede2e2;
+    width: 210px;
+    margin-top: 15px;
+}
+#cancel
+{
+    width: 60px;
+    height: 35px;
+    color: White;
+    background-color: #ff6a00;
+}
+#cancel:hover
+{
+    color: White;
+    background-color:#ffd800
+}

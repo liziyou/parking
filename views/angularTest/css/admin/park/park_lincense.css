@@ -1,0 +1,35 @@
+.a {
+    width:245px;
+    height:200px;
+    border:1px solid #000;
+    background-color:#000;
+    margin-left:270px;
+    margin-top:110px;
+}
+.b {
+    width:245px;
+    height:200px;
+    border:1px solid #000;
+    background-color:#000;
+    margin-left:550px;
+    margin-top:-200px;
+}
+.c {
+
+    width:245px;
+    height:200px;
+    border:1px solid #000;
+    background-color:#000;
+    margin-left:850px;
+    margin-top:-200px;
+}
+p {
+    color:white;
+    margin-top:180px;
+
+}
+tr td {
+    font-weight:bold;
+    color:black;
+    font-size:13px;
+}

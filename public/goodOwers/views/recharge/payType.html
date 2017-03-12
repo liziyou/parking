@@ -1,0 +1,26 @@
+<ion-view view-title="充值">
+    <ion-nav-buttons side="left">
+        <a href="javascript:void(0)" onclick="javascript:history.go(-1);" class="button button-icon icon ion-ios-arrow-back" nav-direction="back" >
+        </a>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <div class="item">
+            <div class="pay-alipay" ng-if="viewType=='alipay'"></div>
+            <div class="pay-wchatpay" ng-if="viewType=='wchatpay'"></div>
+            <input type="text" placeholder="请输入充值金额（元/RMB）" id="clickMoney">
+        </div>
+        <div><br/>
+            <table class="rechargeChoBtn" style="border: solid">
+                    <tr>
+                        <td class="chooseMoney"  ng-click="ionMoney(50)">50</td>
+                        <td class="chooseMoney"  ng-click="ionMoney(100)">100</td>
+                        <td class="chooseMoney"  ng-click="ionMoney(200)">200</td>
+                        <td class="chooseMoney"  ng-click="ionMoney(300)">300</td>
+                        <td class="chooseMoney"  ng-click="ionMoney(500)">500</td>
+                    </tr>
+                </table>
+        </div><br/>
+        <button class="button button-block button-positive" ng-click="nextConfirm()">下一步</button>
+    </ion-content>
+</ion-view>

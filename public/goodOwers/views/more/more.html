@@ -1,0 +1,32 @@
+<ion-view view-title="更多" hide-back-button="true">
+    <ion-nav-buttons side="primary">
+        <button class="button" ng-click="state.reordering =!state.reordering">Reorder</button>
+    </ion-nav-buttons>
+    <ion-content>
+        <!--<ion-list show-reorder="state.reordering">-->
+            <!--<ion-item class="item-toggle" ng-repeat="currency in currencies">-->
+                <!--{{currency.code}}-{{currency.text}}-->
+                <!--<label class="toggle toggle-balanced">-->
+                    <!--<input type="checkbox" ng-model="currency.selected">-->
+                    <!--<div class="track">-->
+                        <!--<div class="handle"></div>-->
+                    <!--</div>-->
+                <!--</label>-->
+                <!--<ion-reorder-button class="ion-navicon" on-reorder="move(currency,$fromIndex,$toIndex)"></ion-reorder-button>-->
+            <!--</ion-item>-->
+        <!--</ion-list>-->
+        <ion-list>
+            <ion-item ui-sref="tabs.more">跳转到登录界面</ion-item>
+            <ion-item><button class="button button-positive" ng-click="goLogin()">跳转到登录界面</button></ion-item>
+            <ion-item ui-sref="register">注册页面</ion-item>
+            <ion-item><button class="button button-position" ng-click="loginOut()">注销</button></ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="keyboardshow　bar item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-edit placeholder-icon"></i>
+            <input type="tel" placeholder="说点什么">
+        </label>
+        <button class="button button-positive">发送</button>
+    </ion-footer-bar>
+</ion-view>

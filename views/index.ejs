@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="">
+<meta charset="utf-8">
+  <head>
+    <title><%= title %></title>
+    <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/angular.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" href="">-->
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form id="textURL" class="form-horizontal" role="form" enctype ="multipart/form-data">
+      <div>
+        <label>
+          <input type="text" name="userName" id="userName"/>
+        </label><br/><br/><br/>
+        <label>
+          <input type="text" name="pwd" id="pwd"/>
+        </label>
+      </div>
+      <button ng-click="testLogin()">测试</button>
+    </form>
+
+  </body>
+<script>
+function testLogin(){
+  alert('点击出来了！');
+  var urlAttr = window.location.href.split('/');
+  $.ajax({
+            url:"http://"+urlAttr[2]+"/index/testLogin",
+            type:'POST',
+            data:$('#textURL').serialize(),
+            async:false,
+            dataType:'json',
+            cache:false,
+            processData:false
+            success:function(data){
+              alert('成功');
+            }
+            error:function(data){
+              aler('失败');
+            }
+          }
+  );
+
+}
+</script>
+</html>

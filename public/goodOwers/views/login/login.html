@@ -1,0 +1,17 @@
+<ion-view view-title="登录">
+    <ion-content class="has-header item-text-wrap" overflow-scroll="false" on-swipe-left="onSwipeLeft(EvaluateCourse)" on-swipe-right="onSwipeRight">
+        <!--<div>这是登录界面</div>-->
+        <label class="item item-input">
+            <i class="ion-person"></i>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.userName" placeholder="请输入手机号">
+        </label><br/>
+        <label class="item item-input">
+            <i class="ion-locked"></i>&nbsp;&nbsp;
+            <input type="text" ng-model="$parent.passPwd" placeholder="请输入密码">
+        </label><br/>
+        <label style="margin-left: 75%;" ng-click="goForgetPwd()">忘记密码？</label>
+        <br/><br/><br/>
+        <button class="button button-balanced" style="margin-left: 70px;width: 150px" ng-click="ionLogin()">登 录</button>&nbsp;&nbsp;
+        <button class="button button-energized" style="margin-left: 50px" ui-sref="register">注 册</button>
+    </ion-content>
+</ion-view>

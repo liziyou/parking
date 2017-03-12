@@ -1,0 +1,114 @@
+.search-consume-record{
+    background: url("../images/recharge.png") no-repeat center;
+    width: 59px;
+    height: 103px;
+}
+.car-lock-parkInfo{
+    background: url("../images/car_lock.png") no-repeat center;
+    width: 50px;
+    height:50px;
+}
+.car-unlock-parkInfo{
+    background:url("../images/car_unlock.png") no-repeat center;
+    width: 50px;
+    height:50px;
+}
+.pay-alipay{
+    background: url("../images/aliypay.png") no-repeat center;
+    width: 80px;
+    height:80px;
+}
+.pay-bankpay{
+    background: url("../images/bankpay.png")no-repeat center;
+    width: 89px;
+    height:81px;
+}
+.pay-wchatpay{
+    background: url("../images/wchatpay.png") no-repeat center;
+    width: 80px;
+    height:80px;
+
+}
+.car-bindCarNu{
+    background: url("../images/bindCarNu.png") no-repeat center;
+    width: 134px;
+    height:200px;
+    margin-left: 25px;
+}
+.car-dodgem{
+    background: url("../images/dodgem.png") no-repeat center;
+    width:134px;
+    height:134px;
+}
+.car-errorCry{
+    background: url("../images/errorCry.png") no-repeat center;
+    width:50px;
+    height:50px;
+}
+.car-errorSmaile{
+    background: url("../images/errorSmaile.png") no-repeat center;
+    width: 50px;
+    height:50px;
+}
+.mall-home{
+    background: url("../images/home.png") no-repeat center;
+    width:64px;
+    height:103px;
+}
+.mall-more{
+    background: url("../images/more.png") no-repeat center;
+    width:58px;
+    height:103px;
+}
+.count-mouthContinue{
+    background: url("../images/mouthContinue.png") no-repeat center;
+    width:134px;
+    height:200px;
+    margin-left: 25px;
+    margin-top: 15px
+}
+.car-parkInfo{
+    background: url("../images/parkInfo.png") no-repeat center;
+    width:134px;
+    height:200px;
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.car-parkingBook{
+    background: url("../images/parkingBook.png") no-repeat center;
+    width:134px;
+    height:134px;
+}
+.home-search{
+    background: url("../images/search.png") no-repeat center;
+    width:58px;
+    heighjt:103px;
+}
+.ionic-merchan{
+    background: url("../images/merchan.png") no-repeat center;
+    width: 134px;
+    height:200px;
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.fixedTips{
+    height:50px;
+}
+.parkScroll{
+    position: absolute;
+    top:50px!important;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.chooseMoney{
+    border:2px solid brown;
+    width: 40px;
+    text-align: center;
+
+}
+.backTips{
+    line-height: 40px;
+    font-size: 15px;
+    margin-left: -5px;
+}

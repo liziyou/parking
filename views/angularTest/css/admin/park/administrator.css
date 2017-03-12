@@ -1,0 +1,23 @@
+.admin{
+    text-align:center;}
+.admin > .heading {
+    background-color:#dfdfdf;font:bold 14px verdana;height:40px;}
+.admin > .panel .ui_list_box{
+    width:100%; overflow:hidden;}
+.admin > .panel .even_bg{
+    background-color:#f6f4f3;}
+.admin > .panel .ui_list_box .ul_admin{
+    float:left; border-right:1px dashed #dfdfdf; color:#999999; padding:10px 0px;}
+.admin > .panel .ui_list_box .td1{
+    color:#030303;}
+#sousuo {
+    width: 222px;
+    margin-left: 0px;
+}
+.heading {
+    background-color:#dfdfdf;
+    font-size:18px;
+    height:45px;
+    color:black;
+    padding-top:10px;
+}

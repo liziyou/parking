@@ -1,0 +1,24 @@
+<ion-view view-title="充值">
+    <ion-content scroll="false">
+        <div class="item item-divider" class="fixedTips">
+            ----------------------------请选择充值方式---------------
+        </div>
+        <div class="item item-input" ng-click="ionWchatpay()">
+            <ion-item class="pay-wchatpay"></ion-item>
+            <span style="margin-left: 20px;">
+                <span style="font-size: 20px;">微信支付</span><br/>
+                支持微信支付
+            </span>
+
+        </div>
+        <div class="item item-input" ng-click="ionAlipay()">
+            <ion-item class="pay-alipay"></ion-item>
+            <span style="margin-left: 20px;">
+                <span style="font-size: 20px;">支付宝</span><br/>
+                推荐有支付宝账户的用户使用
+            </span>
+        </div>
+    </ion-content>
+</ion-view>
+
+

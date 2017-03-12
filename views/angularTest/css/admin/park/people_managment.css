@@ -1,0 +1,37 @@
+/*/!* ===================整体样式============== *!/*/
+/**{*/
+/*margin: 0px;*/
+/*padding: 0px;*/
+/*list-style: none;*/
+/*}*/
+.all{
+    height: 800px;
+    width:1200px;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+/* ===================头部样式============== */
+.top{
+    height: 40px;
+    line-height:40px;
+    width: 1200px;
+    background-color: #dcdcdc;
+}
+.label1{
+    color: #eb5522;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/* ===================列表样式============== */
+.pager1,.pager2{
+    margin-left: 20px;
+    height: 40px;
+    line-height:40px;
+    width: 1180px;
+}
+.pager1{
+    background-color: #ffffff;
+}
+.pager2{
+    background-color: #f8f8f8;
+}

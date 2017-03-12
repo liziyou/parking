@@ -1,0 +1,11 @@
+
+.WeChat-up ul li{
+    text-align:center;
+    height: 35px;
+    line-height:35px;
+    width:52%;
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+

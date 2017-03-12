@@ -1,0 +1,35 @@
+.left{
+    float: left;
+    width: auto;
+}
+/*F:\smallpark\public\goodOwers\css\style.css*/
+/*F:\smallpark\public\goodOwers\images\pay.png*/
+/*F:\smallpark\public\goodOwers\views\tabs\tabs.html*/
+.ion-app-pay{
+    background:url(" ../images/pay.png") no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+/* 设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */
+.abc{ height:300px; border:1px solid #000; margin:0 auto}
+@media screen and (min-width: 1201px) {
+    .abc {width: 1200px}
+}
+
+/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */
+@media screen and (max-width: 1200px) {
+    .abc {width: 900px}
+}
+
+/* 设置了浏览器宽度不大于901px时 abc 显示200px宽度 */
+@media screen and (max-width: 901px) {
+    .abc {width: 200px;}
+}
+/* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */
+@media screen and (max-width: 500px) {
+    .abc {width: 100px;}
+}
+/*图片自适应*/
+img { max-width: 100%;}
+/*采用相对字体大小
+字体也不能使用绝对大小（px），而只能使用相对大小（em）*/

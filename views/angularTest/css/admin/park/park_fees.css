@@ -1,0 +1,83 @@
+/*body {*/
+/*}*/
+/*/!* ===================������ʽ============== *!/*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#all{
+    height: 800px;
+    /*width:1200px;*/
+    margin: 0px auto;
+}
+/* ===================ͷ��ʽ============== */
+#up{
+    height: 30px;
+    line-height: 30px;
+    color: #eb5522;
+}
+#up {
+    color: #eb5522;
+    margin-left: 20px;
+}
+/* ===================�м���ʽ============== */
+#center{
+    margin-top:20px;
+    height: 40px;
+    width: 1160px;
+    /*margin-left: 20px;*/
+    padding-right: 50px;
+}
+#center ul li{
+    text-align:center;
+    height: 40px;
+    line-height:40px;
+    width: 250px;
+    margin-left:1px;
+    float: left;
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+/* ===================������Ϣ��ʽ============== */
+.lf2{
+    float: right;
+    margin-right:20px;
+}
+.info .left1{
+    float: left;
+}
+.table2{
+    padding-left: 50px;
+}
+.park_type{
+    text-align: right;
+    margin-top: -20px;
+}
+.park_right1{
+    text-align: left;
+    margin-top: -80px;
+    margin-left:450px;
+}
+.left2{
+    letter-spacing: 5px;
+}
+/* ===================�б���ʽ============== */
+.five{
+    height: 40px;
+    line-height: 40px;
+    width:100%;
+    float:left;
+    margin-top: 20px;
+    margin-right:400px;
+}
+.s1,.s2{
+    margin-left: 20px;
+    width: 1600px;
+}
+.s1{
+    background-color: #ffffff;
+}
+.s2{
+    background-color: #f8f8f8;
+}

@@ -1,0 +1,46 @@
+﻿body {
+}
+  * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #top {
+            width: 85%;
+            
+            font-size: 13px;
+            color: Red;
+        }
+
+        #content {
+            width: 85%;
+            height: 850px;
+            background-color: white;
+            border: 1px solid #808080;
+            margin-left: 350px;
+            margin-top: 150px;
+        }
+        #reg {
+            font-size:13px;
+            
+        }
+        #SubmitCheck {
+            color: White;
+            background-color: #ff6a00;
+        }
+
+            #SubmitCheck:hover {
+                color: White;
+                font-size:13px;
+                background-color:Red;
+            }
+
+        #cancel {
+            color: White;
+            background-color: red;
+        }
+
+            #cancel:hover {
+                color: White;
+                background-color: #FF6100;
+            }
